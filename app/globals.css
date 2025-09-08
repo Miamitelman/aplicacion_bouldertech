@@ -136,7 +136,10 @@ p{
   }
 
   .input {
-    width: 90%;
+    width: 100%;
+    font-size: 16px;   
+    padding: 12px;    
+    box-sizing: border-box; 
   }
 
   #button {
