@@ -49,7 +49,7 @@ export default function Page() {
         <p><strong>ID:</strong> {resultado.id}</p>
         <p><strong>Altura:</strong> {resultado.height}</p>
         <p><strong>Peso:</strong> {resultado.weight}</p>
-        <p><strong>Tipo:</strong> {resultado.types.map((t: any) => t.type.name).join(", ")}</p>
+        <p><strong>Tipo:</strong> {resultado.types.map((t) => t.type.name).join(", ")}</p>
       </div>
     );
   }
