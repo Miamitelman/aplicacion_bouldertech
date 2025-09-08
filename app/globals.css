@@ -1,7 +1,7 @@
 body {
-  background: linear-gradient(135deg, #a5c8eb 0%,  #5e6bcf 100%); /* más limpio y moderno */
+  background: linear-gradient(135deg, #a5c8eb 0%,  #5e6bcf 100%);
   font-family: 'Poppins', sans-serif;
-  color: #374151; /* gris oscuro para mejor legibilidad */
+  color: #374151;
   margin: 0;
   min-height: 100vh;
 }
@@ -21,10 +21,10 @@ h2 {
   font-size: 1.2rem;
   color: #001a5b; 
   margin-bottom: 15px;
-  max-width: 440px;    /* mismo ancho que la caja */
-  margin-left: auto;   /* centrar el bloque */
+  max-width: 440px;    
+  margin-left: auto; 
   margin-right: auto;
-  text-align: left;    /* alineado a la caja */
+  text-align: left;   
   text-decoration: underline;
 }
 
@@ -50,17 +50,17 @@ h2 {
   font-size: 1.1rem;
   outline: none;
   transition: border 0.2s, box-shadow 0.2s;
-  width: 260px; /* más ancho */
-  font-size: 18px; /* más grande */
+  width: 260px;
+  font-size: 18px; 
 }
 
 .input:focus {
-  border-color: #3B4CCA; /* azul */
+  border-color: #3B4CCA; 
   box-shadow: 0 0 0 3px rgba(59, 76, 202, 0.3);
 }
 
 #button {
-  background: linear-gradient(90deg, #c9bc02 0%, #ea9c00 100%); /* rojo a azul */
+  background: linear-gradient(90deg, #c9bc02 0%, #ea9c00 100%); 
   color: #fff;
   border: none;
   border-radius: 8px;
