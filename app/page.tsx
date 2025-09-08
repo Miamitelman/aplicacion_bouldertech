@@ -1,9 +1,20 @@
 "use client";
 import { useState } from "react";
 
+type Pokemon = {
+  id: number;
+  name: string;
+  height: number;
+  weight: number;
+  sprites: {
+    front_default: string;
+  };
+  types: { type: { name: string } }[];
+};
+
 export default function Page() {
   const [nombre, setNombre] = useState("");
-  const [resultado, setInformacionPokemon] = useState<any>(null);
+  const [resultado, setInformacionPokemon] = useState<Pokemon | null>(null);
   const [estado, setEstado] = useState<"idle" | "cargando" | "error" | "ok">("idle");
 
 
