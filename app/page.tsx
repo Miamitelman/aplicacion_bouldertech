@@ -28,7 +28,6 @@ export default function Page() {
       }
       const data = await res.json();
       setInformacionPokemon(data);
-      setInformacionPokemon(data);
         setEstado("ok");
       } catch {
         setInformacionPokemon(null);
